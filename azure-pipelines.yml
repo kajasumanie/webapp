@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ''
+  vmImage: 'Windows 10 Enterprise'
 
 variables:
   imageName: 'quickdevnotes/webapp:$(build.buildNumber)'
